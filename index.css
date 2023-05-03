@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Inter:wght@100;200;300;400;500;700;800;900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@300;400;500;700&family=Satisfy&display=swap");
+
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+  --green-shade-color: #54c854;
+  --green-shade-color1: #74ec74;
+  --green-shade-color2: #43a043;
+  --gray-shade-color: #636262;
+  --white-color: #ffffff;
+  --white-shade-color: #e8dddd;
+  --box-shadow: #828181;
+}
+
+.main-container {
+  padding: 1rem;
+  box-shadow: 1px 3px 5px var(--box-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-el {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  height: 4rem;
+  box-sizing: border-box;
+  border: 1px solid var(--green-shade-color);
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  color: var(--gray-shade-color);
+}
+
+#input-el:focus {
+  outline: none;
+  background-color: rgb(211, 223, 219);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: var(--green-shade-color);
+  border: none;
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+#btn-delete {
+  background-color: var(--white-color);
+  color: var(--green-shade-color);
+  border: 1px solid var(--green-shade-color);
+}
+
+#btn-delete:active {
+  background-color: var(--white-shade-color);
+}
+
+#btn-save:hover {
+  background-color: var(--green-shade-color2);
+}
+
+#btn-save:active {
+  background-color: var(--green-shade-color1);
+}
+
+#leadsContainer {
+  width: 100%;
+  padding: 1rem;
+}
+
+.list-items {
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+.link {
+  color: var(--green-shade-color);
+}
