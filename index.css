@@ -20,10 +20,24 @@ body {
 
 .main-container {
   padding: 1rem;
-  box-shadow: 1px 3px 5px var(--box-shadow);
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--green-shade-color2);
+  color: var(--white-color);
+  font-size: 1.3rem;
+  gap: 2rem;
+}
+
+.navbar img {
+  width: 50px;
 }
 
 #input-el {
@@ -53,7 +67,7 @@ body {
 .btn {
   padding: 1rem;
   font-size: 1.5rem;
-  background-color: var(--green-shade-color);
+  background-color: var(--green-shade-color2);
   border: none;
   font-weight: bold;
   color: var(--white-color);
@@ -61,8 +75,8 @@ body {
 
 #btn-delete {
   background-color: var(--white-color);
-  color: var(--green-shade-color);
-  border: 1px solid var(--green-shade-color);
+  color: var(--green-shade-color2);
+  border: 1px solid var(--green-shade-color2);
 }
 
 #btn-delete:active {
@@ -71,7 +85,7 @@ body {
 
 #btn-save:hover,
 .btn-save-tab:hover {
-  background-color: var(--green-shade-color2);
+  background-color: var(--green-shade-color);
 }
 
 #btn-save:active,
